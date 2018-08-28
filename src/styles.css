@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Biryani');
+
+body{
+    font-family: 'Biryani', sans-serif;
+}
+a{
+    color:rgb(235, 50, 81);
+    font-size: .8em;
+}
+.positionContent{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+h2{
+    margin: 0px;
+}
+h3{
+    margin:0px;
+}
+p{
+    margin: 0px;
+    text-align: center;
+    text-transform: capitalize;
+}

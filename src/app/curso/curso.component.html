@@ -1,0 +1,12 @@
+<h3>
+  <p>
+    {{ dominioWeb }} <br/>
+    cursos!
+  </p>
+</h3>
+  <div class="centerText">
+    <ul>
+      <li *ngFor="let curso of cursos">{{ curso }}</li>
+    </ul>
+  </div>
+<app-curso-detalhe></app-curso-detalhe>
