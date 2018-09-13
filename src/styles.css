@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Biryani', sans-serif;
+    text-align: center;
 }
 a{
     color:rgb(235, 50, 81);
@@ -17,10 +18,16 @@ h2{
     margin: 0px;
 }
 h3{
+    text-align: center;
     margin:0px;
 }
 p{
     margin: 0px;
     text-align: center;
-    text-transform: capitalize;
+}
+strong{
+    font-size: 1.5em;
+}
+img{
+    overflow: hidden;
 }

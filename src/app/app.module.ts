@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponentComponent } from './meu-primeiro-component/meu-primeiro-component.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeuPrimeiroComponentComponent
+    MeuPrimeiroComponentComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
