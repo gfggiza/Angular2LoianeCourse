@@ -1,0 +1,29 @@
+<br>
+<h2> <strong>Types of Event Binding</strong></h2>
+<br>
+
+<h2>On Click</h2>
+<h1>
+  <i style="color:red;cursor:pointer;" class="glyphicon" [class.glyphicon-heart-empty]="!heart" [class.glyphicon-heart]="heart"
+    (click)="ILove()">
+  </i>
+</h1>
+
+<h2>On Hover</h2>
+<h1>
+  <i class="glyphicon" [ngClass]="{
+    'glyphicon-star-empty':!color,
+    'glyphicon-star':color }" style="color:rgb(217, 0, 255);cursor:pointer;"
+    (mouseenter)="OnHover()">
+  </i>
+</h1>
+
+<h2>Multiple keys</h2>
+
+<h1>
+  <i class="glyphicon" [ngClass]="{
+    'glyphicon-thumbs-up':!updown,
+    'glyphicon-thumbs-down':updown }" style="color:rgb(0, 229, 255);cursor:pointer;"
+    (copy)="OnKeys()">
+  </i>
+</h1>
